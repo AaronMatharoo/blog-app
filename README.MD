@@ -1,4 +1,4 @@
-# Project for Crowdlinker
+# Blog App
 ## Getting Started
 
 ### Running the development server - FRONTEND.
