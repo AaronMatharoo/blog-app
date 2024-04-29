@@ -31,8 +31,7 @@ const Login = () => {
   async function loginUser(data: AuthType) {
     setIsLoading(true);
     try {
-      const authenticationData = await pb
-        .collection("users")
+      const authenticationData = await pb.admins
         .authWithPassword(data.email, data.password);
       setIsError(false);
     } catch (error: any) {
